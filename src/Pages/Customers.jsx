@@ -11,7 +11,7 @@ function Customers() {
 		student.student_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
 		student.student_number.toString().includes(searchTerm.toLowerCase()) ||
 		student.student_location.toLowerCase().includes(searchTerm.toLowerCase()) ||
-		student.max_budget.toLowerCase().includes(searchTerm.toLowerCase()) || 
+		student.max_budget ==  (searchTerm.toLowerCase()) || 
 		student.preferred_location.toLowerCase().includes(searchTerm.toLowerCase())
 	)
 
