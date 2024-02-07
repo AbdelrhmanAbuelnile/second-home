@@ -14,7 +14,6 @@ function Orders() {
 					owner.owner_id
 					.toLowerCase()
 					.includes(searchTerm.toLowerCase()) ||
-					owner.id.toString().includes(searchTerm.toLowerCase()) ||
 					owner.owner_location.toLowerCase().includes(searchTerm.toLowerCase())
 		)
 		;
