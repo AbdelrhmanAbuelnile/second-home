@@ -5,13 +5,13 @@ import {
   Navigate,
   useNavigate
 } from "react-router-dom";
-import CustomerPage from './Pages/CustomerPage.jsx';
-import Customers from './Pages/Customers.jsx';
+import StudentDetails from './Pages/StudentDetails.jsx';
+import Students from './Pages/Students.jsx';
 import Layout from './Pages/Layout.jsx';
-import Orders from "./Pages/Orders.jsx";
+import Owners from "./Pages/Owners.jsx";
 import Reports from "./Pages/Reports.jsx";
 import { useEffect,useState } from "react";
-import OrderDetails from "./Pages/OrderDetails.jsx";
+import OwnerDetails from "./Pages/OwnerDetails.jsx";
 
 
 function App() {
@@ -38,10 +38,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Reports />} />
-            <Route path="/students" element={<Customers />} />
-            <Route path="/student/:id" element={<CustomerPage />} />
-            <Route path='/owners' element={<Orders />} />
-            <Route path='/owner/:id' element={<OrderDetails />} />
+            <Route path="/students" element={<Students />} />
+            <Route path="/student/:id" element={<StudentDetails />} />
+            <Route path='/owners' element={<Owners />} />
+            <Route path='/owner/:id' element={<OwnerDetails />} />
           </Route>
         </Routes>
       </Router>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import students from "../data/students.json";
 import { useState } from "react";
 
-function Customers() {
+function Students() {
 	const [searchTerm, setSearchTerm] = useState("");
 
 	const filteredStudents = students.filter(
@@ -39,7 +39,7 @@ function Customers() {
 					</div>
 					{filteredStudents.map((student) => (
 						<Link
-							to={`/customer/${student.student_id}`}
+							to={`/student/${student.student_id}`}
 							key={student.student_id}
 							className="flex flex-row border border-fourth items-center text-gray-300 bg-secondary hover:bg-secondary/70 w-full hover:rounded-md duration-300 hover:text-secondaryback"
 						>
@@ -62,4 +62,4 @@ function Customers() {
 	);
 }
 
-export default Customers;
+export default Students;

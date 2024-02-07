@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import owners from '../data/owners.json';
 
-function OrderDetails() {
+function OwnerDetails() {
   const location = useLocation();
   let ownerID = location.pathname.split('/').pop();
   let owner = owners.find((owner) => owner.owner_id.toLowerCase() === ownerID.toLowerCase());
@@ -28,4 +28,4 @@ function OrderDetails() {
   )
 }
 
-export default OrderDetails
+export default OwnerDetails

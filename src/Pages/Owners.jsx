@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import owners from "../data/owners.json";
 import { useState } from "react";
 
-function Orders() {
+function Owners() {
 	const [searchTerm, setSearchTerm] = useState("");
 
 	const filteredOwners = owners
@@ -39,7 +39,7 @@ function Orders() {
 				</div>
 				{filteredOwners.map((owner) => (
 					<Link
-						to={`/order/${owner.owner_id}`}
+						to={`/owner/${owner.owner_id}`}
 						key={owner.owner_id}
 						className="flex flex-row border border-fourth items-center text-gray-300 bg-secondary hover:bg-secondary/70 w-full hover:rounded-md duration-300 hover:text-secondaryback"
 					>
@@ -58,4 +58,4 @@ function Orders() {
 	);
 }
 
-export default Orders;
+export default Owners;

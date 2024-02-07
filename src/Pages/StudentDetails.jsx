@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import students from '../data/students.json';
 
-function CustomerPage() {
+function StudentDetails() {
   const location = useLocation();
   let studentID = location.pathname.split('/').pop();
   let student = students.find((student) => student.student_id.toLowerCase() === studentID.toLowerCase());
@@ -32,4 +32,4 @@ function CustomerPage() {
   );
 }
 
-export default CustomerPage;
+export default StudentDetails;
