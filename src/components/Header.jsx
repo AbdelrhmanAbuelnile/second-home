@@ -30,16 +30,16 @@ function Header() {
   }, []);
 
   return (
-    <div  className='bg-secondaryDarkLead/30 w-full py-3 md:py-7 px-5 md:px-20 flex flex-row justify-between gap-52 items-center relative z-10'>
-      <img src={logo} alt="logo" width={60} />
+    <div  className='bg-secondary w-full py-3 md:py-7 px-5 md:px-20 flex flex-row justify-between gap-52 items-center relative z-10'>
+      <img src={logo} alt="logo" width={100} />
 
 
       <div className="flex flex-row justify-center gap-9 items-center">
-        <Link to={'/'} className="text-secondary text-2xl hidden largelaptop:hidden md:block" >Reports</Link>
-        <Link to={'/customers'} className="text-secondary text-2xl hidden largelaptop:hidden md:block" >Customers</Link>
-        <Link to={'/orders'} className="text-secondary text-2xl hidden largelaptop:hidden md:block" >orders</Link>
+        <Link to={'/'} className="text-fourth text-2xl hidden largelaptop:hidden md:block" >Reports</Link>
+        <Link to={'/customers'} className="text-fourth text-2xl hidden largelaptop:hidden md:block" >Customers</Link>
+        <Link to={'/orders'} className="text-fourth text-2xl hidden largelaptop:hidden md:block" >orders</Link>
         <IoPersonSharp className="text-white text-xl cursor-pointer"/>
-        <span className="lg:hidden">
+        <span className="md:hidden">
         {
           !isOpen ?
           <GiHamburgerMenu className="text-xl text-white" onClick={()=> setIsOpen(!isOpen)} />
@@ -50,9 +50,9 @@ function Header() {
         {
           isOpen && 
           <div ref={dropdownRef} className="absolute z-[99999999] top-20 right-10 bg-secondaryDarkLead p-4 rounded-md flex flex-col gap-4">
-            <Link to={'/'} className="text-secondary text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><MdOutlineInsertChart /> Reports</Link>
-            <Link to={'/customers'} className="text-secondary text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><FaPeopleCarry />Customers</Link>
-            <Link to={'/orders'} className="text-secondary text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><PiPackageFill />orders</Link>
+            <Link to={'/'} className="text-fourth text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><MdOutlineInsertChart /> Reports</Link>
+            <Link to={'/customers'} className="text-fourth text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><FaPeopleCarry />Customers</Link>
+            <Link to={'/orders'} className="text-fourth text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><PiPackageFill />orders</Link>
           </div>
         }
       </div>
