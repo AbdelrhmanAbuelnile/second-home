@@ -38,10 +38,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Reports />} />
-            <Route path="/customers" element={<Customers />} />
-            <Route path="/customer/:id" element={<CustomerPage />} />
-            <Route path='/orders' element={<Orders />} />
-            <Route path='/order/:id' element={<OrderDetails />} />
+            <Route path="/students" element={<Customers />} />
+            <Route path="/student/:id" element={<CustomerPage />} />
+            <Route path='/owners' element={<Orders />} />
+            <Route path='/owner/:id' element={<OrderDetails />} />
           </Route>
         </Routes>
       </Router>

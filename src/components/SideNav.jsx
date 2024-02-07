@@ -23,7 +23,7 @@ function SideNav() {
 				</NavLink>
 
 				<NavLink
-					to={"/customers"}
+					to={"/students"}
 					className="
 							rounded-xl p-1.5 md:p-3 text-base md:text-xl
 							font-semibold text-white hover:bg-primary
@@ -35,7 +35,7 @@ function SideNav() {
 				</NavLink>
 
 				<NavLink
-					to={"/orders"}
+					to={"/owners"}
 					className="
           rounded-xl p-1.5 md:p-3 text-base md:text-xl
           font-semibold text-white hover:bg-primary

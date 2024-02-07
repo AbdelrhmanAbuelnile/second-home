@@ -36,8 +36,8 @@ function Header() {
 
       <div className="flex flex-row justify-center gap-9 items-center">
         <Link to={'/'} className="text-white text-2xl hidden largelaptop:hidden md:block" >Reports</Link>
-        <Link to={'/customers'} className="text-white text-2xl hidden largelaptop:hidden md:block" >Students</Link>
-        <Link to={'/orders'} className="text-white text-2xl hidden largelaptop:hidden md:block" >Owners</Link>
+        <Link to={'/students'} className="text-white text-2xl hidden largelaptop:hidden md:block" >Students</Link>
+        <Link to={'/owners'} className="text-white text-2xl hidden largelaptop:hidden md:block" >Owners</Link>
         <IoPersonSharp className="text-white text-xl cursor-pointer"/>
         <span className="md:hidden">
         {
@@ -51,8 +51,8 @@ function Header() {
           isOpen && 
           <div ref={dropdownRef} className="absolute z-[99999999] top-20 right-10 bg-secondaryDarkLead p-4 rounded-md flex flex-col gap-4">
             <Link to={'/'} className="text-white text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><MdOutlineInsertChart /> Reports</Link>
-            <Link to={'/customers'} className="text-white text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><GiSchoolBag />Students</Link>
-            <Link to={'/orders'} className="text-white text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><FaKey />Owners</Link>
+            <Link to={'/students'} className="text-white text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><GiSchoolBag />Students</Link>
+            <Link to={'/owners'} className="text-white text-2xl flex gap-2 items-center" onClick={()=> setIsOpen(!isOpen)} ><FaKey />Owners</Link>
           </div>
         }
       </div>
