@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { PiPackageFill } from "react-icons/pi";
+import { FaKey } from "react-icons/fa";
 import { MdOutlineInsertChart } from "react-icons/md";
-import { FaPeopleCarry } from "react-icons/fa";
+import { GiSchoolBag } from "react-icons/gi";
 
 function SideNav() {
 	return (
@@ -30,8 +30,8 @@ function SideNav() {
 							hover:text-white duration-300 flex flex-col justify-center items-center gap-2
 						"
 				>
-					<FaPeopleCarry />
-					<span className="text-base font-medium">Customers</span>
+					<GiSchoolBag />
+					<span className="text-base font-medium">Students</span>
 				</NavLink>
 
 				<NavLink
@@ -42,9 +42,9 @@ function SideNav() {
           hover:text-white duration-300 flex flex-col justify-center items-center gap-2
 						"
 				>
-					<PiPackageFill />
+					<FaKey />
           <span className="text-base font-medium">
-            Orders
+            Owners
           </span>
 				</NavLink>
 

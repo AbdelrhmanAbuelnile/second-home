@@ -1,0 +1,302 @@
+[
+  {
+    "owner_name": "Ahmed Mohamed",
+    "owner_id": "AM001",
+    "owner_location": "Cairo",
+    "num_rooms": 3,
+    "num_students_interested": 5,
+    "num_beds": 4,
+    "num_properties": 2,
+    "owner_phone": "+20123456789"
+  },
+  {
+    "owner_name": "Fatma Ali",
+    "owner_id": "FA002",
+    "owner_location": "Alexandria",
+    "num_rooms": 2,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 1,
+    "owner_phone": "+20123456788"
+  },
+  {
+    "owner_name": "Hassan Ibrahim",
+    "owner_id": "HI003",
+    "owner_location": "Luxor",
+    "num_rooms": 4,
+    "num_students_interested": 6,
+    "num_beds": 5,
+    "num_properties": 3,
+    "owner_phone": "+20123456787"
+  },
+  {
+    "owner_name": "Nourhan Salah",
+    "owner_id": "NS004",
+    "owner_location": "Aswan",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456786"
+  },
+  {
+    "owner_name": "Yasmine Mahmoud",
+    "owner_id": "YM005",
+    "owner_location": "Sharm El Sheikh",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456785"
+  },
+  {
+    "owner_name": "Amr Abdelwahab",
+    "owner_id": "AA006",
+    "owner_location": "Hurghada",
+    "num_rooms": 3,
+    "num_students_interested": 5,
+    "num_beds": 4,
+    "num_properties": 2,
+    "owner_phone": "+20123456784"
+  },
+  {
+    "owner_name": "Sara Hassan",
+    "owner_id": "SH007",
+    "owner_location": "Giza",
+    "num_rooms": 1,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 1,
+    "owner_phone": "+20123456783"
+  },
+  {
+    "owner_name": "Omar Samir",
+    "owner_id": "OS008",
+    "owner_location": "Port Said",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456782"
+  },
+  {
+    "owner_name": "Youssef Adel",
+    "owner_id": "YA009",
+    "owner_location": "Dahab",
+    "num_rooms": 3,
+    "num_students_interested": 6,
+    "num_beds": 4,
+    "num_properties": 3,
+    "owner_phone": "+20123456781"
+  },
+  {
+    "owner_name": "Nada Hassan",
+    "owner_id": "NH010",
+    "owner_location": "Mansoura",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456780"
+  },
+  {
+    "owner_name": "Hussein Mahmoud",
+    "owner_id": "HM011",
+    "owner_location": "Suez",
+    "num_rooms": 2,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 2,
+    "owner_phone": "+20123456779"
+  },
+  {
+    "owner_name": "Mariam Abdelrahman",
+    "owner_id": "MA012",
+    "owner_location": "Tanta",
+    "num_rooms": 4,
+    "num_students_interested": 7,
+    "num_beds": 5,
+    "num_properties": 3,
+    "owner_phone": "+20123456778"
+  },
+  {
+    "owner_name": "Mohamed Samy",
+    "owner_id": "MS013",
+    "owner_location": "Ismailia",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456777"
+  },
+  {
+    "owner_name": "Salma Adel",
+    "owner_id": "SA014",
+    "owner_location": "Faiyum",
+    "num_rooms": 3,
+    "num_students_interested": 5,
+    "num_beds": 4,
+    "num_properties": 2,
+    "owner_phone": "+20123456776"
+  },
+  {
+    "owner_name": "Ali Hassan",
+    "owner_id": "AH015",
+    "owner_location": "Kafr El Sheikh",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456775"
+  },
+  {
+    "owner_name": "Aya Mohamed",
+    "owner_id": "AY016",
+    "owner_location": "Damietta",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456774"
+  },
+  {
+    "owner_name": "Tarek Mahmoud",
+    "owner_id": "TM017",
+    "owner_location": "Qena",
+    "num_rooms": 3,
+    "num_students_interested": 6,
+    "num_beds": 4,
+    "num_properties": 3,
+    "owner_phone": "+20123456773"
+  },
+  {
+    "owner_name": "Yara Ibrahim",
+    "owner_id": "YI018",
+    "owner_location": "Beni Suef",
+    "num_rooms": 1,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 1,
+    "owner_phone": "+20123456772"
+  },
+  {
+    "owner_name": "Mahmoud Ali",
+    "owner_id": "MA019",
+    "owner_location": "Minya",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456771"
+  },
+  {
+    "owner_name": "Noura Adel",
+    "owner_id": "NA020",
+    "owner_location": "Sohag",
+    "num_rooms": 3,
+    "num_students_interested": 5,
+    "num_beds": 4,
+    "num_properties": 3,
+    "owner_phone": "+20123456770"
+  },
+  {
+    "owner_name": "Youssef Hassan",
+    "owner_id": "YH021",
+    "owner_location": "Asyut",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456769"
+  },
+  {
+    "owner_name": "Nada Mahmoud",
+    "owner_id": "NM022",
+    "owner_location": "Luxor",
+    "num_rooms": 2,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 2,
+    "owner_phone": "+20123456768"
+  },
+  {
+    "owner_name": "Amira Abdelrahman",
+    "owner_id": "AA023",
+    "owner_location": "Port Said",
+    "num_rooms": 4,
+    "num_students_interested": 7,
+    "num_beds": 5,
+    "num_properties": 3,
+    "owner_phone": "+20123456767"
+  },
+  {
+    "owner_name": "Mohamed Samir",
+    "owner_id": "MS024",
+    "owner_location": "Hurghada",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456766"
+  },
+  {
+    "owner_name": "Sara Adel",
+    "owner_id": "SA025",
+    "owner_location": "Giza",
+    "num_rooms": 3,
+    "num_students_interested": 5,
+    "num_beds": 4,
+    "num_properties": 2,
+    "owner_phone": "+20123456765"
+  },
+  {
+    "owner_name": "Omar Hassan",
+    "owner_id": "OH026",
+    "owner_location": "Sharm El Sheikh",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456764"
+  },
+  {
+    "owner_name": "Yasmine Mahmoud",
+    "owner_id": "YM027",
+    "owner_location": "Dahab",
+    "num_rooms": 2,
+    "num_students_interested": 3,
+    "num_beds": 2,
+    "num_properties": 2,
+    "owner_phone": "+20123456763"
+  },
+  {
+    "owner_name": "Ali Ibrahim",
+    "owner_id": "AI028",
+    "owner_location": "Mansoura",
+    "num_rooms": 3,
+    "num_students_interested": 6,
+    "num_beds": 4,
+    "num_properties": 3,
+    "owner_phone": "+20123456762"
+  },
+  {
+    "owner_name": "Mariam Ali",
+    "owner_id": "MA029",
+    "owner_location": "Suez",
+    "num_rooms": 1,
+    "num_students_interested": 2,
+    "num_beds": 1,
+    "num_properties": 1,
+    "owner_phone": "+20123456761"
+  },
+  {
+    "owner_name": "Ahmed Samy",
+    "owner_id": "AS030",
+    "owner_location": "Tanta",
+    "num_rooms": 2,
+    "num_students_interested": 4,
+    "num_beds": 3,
+    "num_properties": 2,
+    "owner_phone": "+20123456760"
+  }
+]
