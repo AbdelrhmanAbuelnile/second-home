@@ -30,7 +30,7 @@ function Header() {
   }, []);
 
   return (
-    <div  className='bg-secondary w-full py-3 md:py-7 px-5 md:px-20 flex flex-row justify-between gap-52 items-center relative z-10'>
+    <div  className='bg-secondary w-full py-3 md:py-7 px-5 md:px-20 flex flex-row justify-between lg:gap-52 items-center relative z-10'>
       <img src={logo} alt="logo" width={100} />
 
 
